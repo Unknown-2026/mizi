@@ -1,7 +1,7 @@
 {
   "name": "miji",
   "private": true,
-  "packageManager": "pnpm@10",
+  "packageManager": "pnpm@10.23.0",
   "scripts": {
     "local": "turbo run local --parallel",
     "server:local": "turbo run local --filter=miji-server-repo"
