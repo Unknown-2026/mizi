@@ -1,0 +1,8 @@
+{
+  "apps/mobile/**/*.{js,jsx,ts,tsx}": [
+    "pnpm --filter @miji/mobile exec eslint --fix",
+    "prettier --write"
+  ],
+  "*.{js,cjs,mjs}": "prettier --write",
+  "**/*.{json,jsonc,md,yml,yaml}": "prettier --write"
+}
