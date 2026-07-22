@@ -4,9 +4,17 @@
   "packageManager": "pnpm@10.23.0",
   "scripts": {
     "local": "turbo run local --parallel",
-    "server:local": "turbo run local --filter=miji-server-repo"
+    "mobile:local": "turbo run local --filter=@miji/mobile",
+    "lint": "pnpm --filter @miji/mobile lint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "husky"
   },
   "devDependencies": {
+    "eslint-config-prettier": "^10.1.8",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.1.1",
+    "prettier": "3.9.6",
     "turbo": "^2.9.18"
   }
 }
