@@ -4,8 +4,9 @@
   "packageManager": "pnpm@10.23.0",
   "scripts": {
     "local": "turbo run local --parallel",
-    "mobile:local": "turbo run local --filter=@miji/mobile",
-    "lint": "pnpm --filter @miji/mobile lint",
+    "app:local": "turbo run local --filter=mizi-app-repo",
+    "server:local": "turbo run local --filter=mizi-server-repo",
+    "lint": "pnpm --filter mizi-app-repo lint",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "prepare": "husky"

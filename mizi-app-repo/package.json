@@ -1,5 +1,5 @@
 {
-  "name": "@miji/mobile",
+  "name": "mizi-app-repo",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {

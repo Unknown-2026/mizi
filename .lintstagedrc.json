@@ -1,6 +1,6 @@
 {
-  "apps/mobile/**/*.{js,jsx,ts,tsx}": [
-    "pnpm --filter @miji/mobile exec eslint --fix",
+  "mizi-app-repo/**/*.{js,jsx,ts,tsx}": [
+    "pnpm --filter mizi-app-repo exec eslint --fix",
     "prettier --write"
   ],
   "*.{js,cjs,mjs}": "prettier --write",

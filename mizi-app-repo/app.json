@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "miji",
-    "slug": "miji",
+    "name": "mizi",
+    "slug": "mizi",
     "version": "1.0.0",
     "orientation": "portrait",
-    "scheme": "miji",
+    "scheme": "mizi",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
