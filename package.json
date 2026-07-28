@@ -1,12 +1,16 @@
 {
   "name": "miji",
   "private": true,
-  "packageManager": "pnpm@10",
+  "packageManager": "pnpm@10.23.0",
   "scripts": {
     "local": "turbo run local --parallel",
-    "server:local": "turbo run local --filter=miji-server-repo"
+    "app:local": "turbo run local --filter=mizi-app-repo",
+    "server:local": "turbo run local --filter=mizi-server-repo",
+    "prepare": "husky"
   },
   "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^17.1.1",
     "turbo": "^2.9.18"
   }
 }

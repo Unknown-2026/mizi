@@ -1,0 +1,7 @@
+{
+  "mizi-app-repo/**/*.{js,jsx,ts,tsx}": [
+    "pnpm --filter mizi-app-repo exec eslint --fix",
+    "pnpm --filter mizi-app-repo exec prettier --write"
+  ],
+  "mizi-app-repo/**/*.{json,jsonc,md,yml,yaml}": "pnpm --filter mizi-app-repo exec prettier --write"
+}
