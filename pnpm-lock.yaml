@@ -8,18 +8,12 @@ importers:
 
   .:
     devDependencies:
-      eslint-config-prettier:
-        specifier: ^10.1.8
-        version: 10.1.8(eslint@9.39.5)
       husky:
         specifier: ^9.1.7
         version: 9.1.7
       lint-staged:
         specifier: ^17.1.1
         version: 17.1.1
-      prettier:
-        specifier: 3.9.6
-        version: 3.9.6
       turbo:
         specifier: ^2.9.18
         version: 2.10.3
@@ -111,9 +105,15 @@ importers:
       eslint:
         specifier: ^9.25.0
         version: 9.39.5
+      eslint-config-prettier:
+        specifier: ^10.1.8
+        version: 10.1.8(eslint@9.39.5)
       eslint-config-expo:
         specifier: ~10.0.0
         version: 10.0.0(eslint@9.39.5)(typescript@5.9.3)
+      prettier:
+        specifier: 3.9.6
+        version: 3.9.6
       typescript:
         specifier: ~5.9.2
         version: 5.9.3

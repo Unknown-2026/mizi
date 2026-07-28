@@ -6,16 +6,11 @@
     "local": "turbo run local --parallel",
     "app:local": "turbo run local --filter=mizi-app-repo",
     "server:local": "turbo run local --filter=mizi-server-repo",
-    "lint": "pnpm --filter mizi-app-repo lint",
-    "format": "prettier --write .",
-    "format:check": "prettier --check .",
     "prepare": "husky"
   },
   "devDependencies": {
-    "eslint-config-prettier": "^10.1.8",
     "husky": "^9.1.7",
     "lint-staged": "^17.1.1",
-    "prettier": "3.9.6",
     "turbo": "^2.9.18"
   }
 }

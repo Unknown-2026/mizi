@@ -1,5 +1,4 @@
 node_modules/
-.github/ISSUE_TEMPLATE/
 .expo/
 dist/
 web-build/
@@ -7,6 +6,5 @@ coverage/
 build/
 android/
 ios/
-pnpm-lock.yaml
 *.tsbuildinfo
 **/expo-env.d.ts
