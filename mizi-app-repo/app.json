@@ -24,7 +24,7 @@
         "expo-splash-screen",
         {
           "backgroundColor": "#2F976F",
-          "image": "./assets/images/auth/mizi-splash-logo.png",
+          "image": "./assets/images/auth/mizi-splash-lockup.png",
           "imageWidth": 190,
           "resizeMode": "contain"
         }
