@@ -1,3 +1,5 @@
 packages:
   - 'mizi-app-repo'
   - 'mizi-server-repo'
+allowBuilds:
+  unrs-resolver: true
