@@ -5,6 +5,20 @@
 
 import { Platform } from 'react-native';
 
+export const palette = {
+  bg: '#FAF8F4',
+  text: '#151817',
+  muted: '#8A9290',
+  line: '#E8ECE8',
+  green: '#2F9B6F',
+  greenDark: '#167365',
+  blue: '#3288A5',
+  mint: '#DFF7ED',
+  black: '#202326',
+  card: '#FFFFFF',
+  warm: '#F7E7C5',
+};
+
 const tintColorLight = '#0a7ea4';
 const tintColorDark = '#fff';
 
